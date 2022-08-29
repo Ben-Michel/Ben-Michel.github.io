@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="json.js" defer></script>
+    <title>Json</title>
+</head>
+<body>
+    <div id="MainContainer">
+        <header>
+            <label for="Name">File Name: </label>
+            <input id="Name">
+            <button id="GenerateJson">Generate JSON</button>
+        </header>
+        <div id="SubContainer">
+            <h3>Channels :</h3>
+            <div id="Channels">
+                <div class="channel">
+                    <input class="channelInput">
+                </div>
+            </div>
+            <button id="addChannel">+</button>
+            <h3>Steps :</h3>
+            <div id="StepsContainer">
+                <div id ="0" class="step">
+                    <h4>0</h4>
+                    <button hidden></button>
+                    <textarea rows="10"></textarea>
+                </div>
+            </div>
+            <button id="addStep">+</button>
+        </div>
+    </div>
+</body>
+</html>
