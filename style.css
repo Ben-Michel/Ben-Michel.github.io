@@ -1,0 +1,93 @@
+
+:root{
+    --background:#fdfdfd;
+    --midColor:#e8eaf0;
+    --blue: #2293da; 
+    --red: rgb(228, 4, 4);
+    --lightText:#eeeeee;
+    --border:#888592;
+
+    --paddingElement:1rem;
+    --borderRadiusElement:1rem;
+}
+
+header,#SubContainer{
+    border: var(--border) 2px solid;
+    background-color: var(--midColor);
+    padding: var(--paddingElement);
+    border-radius: var(--borderRadiusElement);
+    margin-bottom: 10px;
+}
+
+button{
+    background-color: var(--blue);
+    color: var(--lightText);
+    font-weight: 600;
+    font-size: 1rem;
+    box-shadow: none;
+    border: none;
+    margin: 0; 
+    padding: .5rem 1rem;
+    border-radius: 0.3rem;
+}
+button:hover{
+    cursor: pointer;
+}
+
+label{
+    font-size: 1.3rem;
+}
+
+#GenerateJson{
+    float: right;
+}
+
+#Channels{
+    width: 60%;
+    margin-bottom: .2rem;
+}
+
+.channel{
+    font-size: 1.5rem;
+    padding: 0.1rem 0;
+}
+
+.channelInput, .deleteButton{
+    font-size: inherit;
+    margin-right: 0.4rem;
+    /* the following ensures they're all using the same box-model for rendering */
+    -moz-box-sizing: content-box; /* or `border-box` */
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+.deleteButton{
+    background-color: var(--red) ;
+    border: solid var(--red) 3px;
+    padding: 0 0.5rem;
+}
+
+input{
+    font-size: 1.4rem;
+}
+
+textarea{
+    resize: vertical;
+    width: 100%;
+}
+
+Body{
+    background-color: var(--background);
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+#MainContainer{
+    margin:auto;
+    width: 50%;
+    padding: 20px;
+}
+
+.step h4 {
+    display: inline-block;
+    margin-right: 1rem;
+}
