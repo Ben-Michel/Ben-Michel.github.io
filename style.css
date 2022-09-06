@@ -1,93 +1,110 @@
-
-:root{
-    --background:#fdfdfd;
-    --midColor:#e8eaf0;
-    --blue: #2293da; 
-    --red: rgb(228, 4, 4);
-    --lightText:#eeeeee;
-    --border:#888592;
-
-    --paddingElement:1rem;
-    --borderRadiusElement:1rem;
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-header,#SubContainer{
-    border: var(--border) 2px solid;
-    background-color: var(--midColor);
-    padding: var(--paddingElement);
-    border-radius: var(--borderRadiusElement);
-    margin-bottom: 10px;
+/* Début bloc File Name + Generate JSON */
+
+#MainContainer {
+    border-radius: 15px;
+    color: #132C33;
+    margin: 0 auto;
 }
 
-button{
-    background-color: var(--blue);
-    color: var(--lightText);
-    font-weight: 600;
-    font-size: 1rem;
-    box-shadow: none;
+#Name {
+    background-color: #D8E3E7;
+    color: #132C33;
+    font-size: medium;
+    padding: 3px 12px;
+    border-radius: 3px;
     border: none;
-    margin: 0; 
-    padding: .5rem 1rem;
-    border-radius: 0.3rem;
-}
-button:hover{
-    cursor: pointer;
 }
 
-label{
-    font-size: 1.3rem;
+#GenerateJson {
+    background-color: #D8E3E7;
+    color: #126E82;
+    font-size: medium;
+    padding: 3px 12px;
+    border-radius: 5px;
+    border: none;
 }
 
-#GenerateJson{
-    float: right;
+/* Fin bloc File Name + Generate JSON */
+
+
+/* Début bloc Channels + Steps */
+
+#SubContainer {
+    background-color: #D8E3E7;
+    border-radius: 15px;
+    padding: 3px 12px;
 }
 
-#Channels{
-    width: 60%;
-    margin-bottom: .2rem;
+#Channels {
+    color: #132C33;
 }
 
-.channel{
-    font-size: 1.5rem;
-    padding: 0.1rem 0;
+.channelInput {
+    background-color: #126d829f;
+    color: #132C33;
+    font-size: medium;
+    margin: 5px 3px 5px;
+    padding: 5px 75px;
+    border-radius: 3px;
+    border: none;
 }
 
-.channelInput, .deleteButton{
-    font-size: inherit;
-    margin-right: 0.4rem;
-    /* the following ensures they're all using the same box-model for rendering */
-    -moz-box-sizing: content-box; /* or `border-box` */
-    -webkit-box-sizing: content-box;
-    box-sizing: content-box;
+button {
+    background-color: #126E82;
+    color: #D8E3E7;
+    margin: 3px 0px 5px;
+    padding: 5px 10px 5px;
+    border-radius: 3px;
+    border: none;
 }
 
-.deleteButton{
-    background-color: var(--red) ;
-    border: solid var(--red) 3px;
-    padding: 0 0.5rem;
+button:hover {
+    cursor: pointer
 }
 
-input{
-    font-size: 1.4rem;
+
+/* Bouton + Channels */
+
+#addChannel {
+    background-color: #126E82;
+    color: #D8E3E7;
+    margin: 3px;
+    padding: 5px 10px 5px;
+    border-radius: 3px;
+    border: none;
 }
 
-textarea{
-    resize: vertical;
-    width: 100%;
-}
-
-Body{
-    background-color: var(--background);
-    font-family: 'Roboto Flex', sans-serif;
-}
-
-#MainContainer{
-    margin:auto;
-    width: 50%;
-    padding: 20px;
+.step {
+    color: #132C33;
 }
 
 .step h4 {
-    display: inline-block;
-    margin-right: 1rem;
+    color: #132C33;
 }
+
+textarea {
+    margin: 5px 3px 10px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+}
+
+
+/* Bouton + Steps */
+
+#addStep {
+    background-color: #126E82;
+    color: #D8E3E7;
+    margin: 3px;
+    padding: 5px 10px 5px;
+    border-radius: 3px;
+    border: none;
+}
+
+
+/* Fin bloc Channels + Steps */
