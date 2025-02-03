@@ -1,0 +1,231 @@
+:root {
+    --primary-color: #3e377a;
+    --secondary-color: #ecf3ff;
+    --background-color: #F8F8FF;
+    --green-screen: #00FF00;
+}
+
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    /* padding: 12px; */
+}
+
+h1 {
+    margin-top: 0;
+}
+
+#Container {
+    padding: 2vh;
+    height: 96vh;
+    display: grid;
+    grid-template-rows: 10vh 86vh;
+}
+
+#globalContainer {
+    display: grid;
+    position: relative;
+    grid-template-columns: 600px 200px auto;
+    gap: 30px;
+}
+
+#generatorArea {
+    grid-column: 0;
+}
+
+#packsAreaList {
+    grid-column: 2;
+}
+
+#packsDisplayArea {
+    /* border: 2px solid var(--primary-color); */
+    max-height: 100%;
+    /* border-radius: 16px; */
+    overflow: auto;
+    padding: 0 5px;
+}
+
+.aspirationContainer {
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.aspirationContainer h3 {
+    display: block;
+    grid-column: 1/-1;
+}
+
+.aspirationToggle {
+    cursor: pointer;
+    user-select: none;
+}
+
+.aspirationToggle::before {
+    content: "\25B6";
+    margin-right: 6px;
+    display: inline-block;
+    transform: rotate(90deg)
+}
+
+.hideContent {
+    display: none;
+}
+
+.aspirationToggleDown::before {
+    transform: rotate(0deg)
+}
+
+.card {
+    border: solid 0.2rem var(--primary-color);
+    border-radius: 1rem;
+    height: 100px;
+    padding: 10px;
+    background-color: var(--secondary-color);
+}
+
+.card h3 {
+    font-size: medium;
+}
+
+h3 {
+    color: var(--primary-color);
+    margin: 0 0 10px 0;
+}
+
+.card img {
+    display: block;
+    margin: auto;
+}
+
+.packComponent {
+    /* display: inline-block; */
+    margin: 2px;
+}
+
+.packCheckboxLabel {
+    display: block;
+}
+
+#ageChoice {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    width: 600px;
+    text-align: center;
+    /* border: 1px solid black; */
+}
+
+#centerChoice {
+    display: inline-block;
+}
+
+#centerChoice div {
+    display: inline-block;
+}
+
+#generateButton {
+    margin-top: 15px;
+}
+
+#generateButton>button {
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    border: var(--primary-color) 3px solid;
+    border-radius: 10px;
+    font-size: large;
+    padding: 5px 134px;
+    cursor: pointer;
+}
+
+.radioNone {
+    display: none;
+}
+
+.packCheckbox:checked+label,
+.radioNone:checked+.ageSelectorButton {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.packCheckboxLabel,
+.ageSelectorButton {
+    border-color: var(--primary-color);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 16rem;
+    user-select: none;
+    cursor: pointer;
+    background-color: var(--secondary-color);
+    padding: 5px 25px;
+    color: var(--primary-color);
+}
+
+#DisplayContainer {
+    width: 600px;
+    height: 400px;
+    /* border: var(--primary-color) 1px solid; */
+    background-color: var(--green-screen);
+    /* background-color: rgb(255, 255, 255); */
+    position: relative;
+}
+
+#DisplayContainerBackground {
+    width: 600px;
+    height: 400px;
+}
+
+.generatorImage {
+    position: absolute;
+    animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 100;
+    }
+}
+
+*::-webkit-scrollbar {
+    height: 8px;
+    width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background-color: #DFE9EB;
+}
+
+*::-webkit-scrollbar-track:hover {
+    background-color: #B8C0C2;
+}
+
+*::-webkit-scrollbar-track:active {
+    background-color: #B8C0C2;
+}
+
+*::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: var(--primary-color);
+}
+
+*::-webkit-scrollbar-thumb:hover {
+    background-color: var(--primary-color);
+}
+
+*::-webkit-scrollbar-thumb:active {
+    background-color: var(--primary-color);
+}
