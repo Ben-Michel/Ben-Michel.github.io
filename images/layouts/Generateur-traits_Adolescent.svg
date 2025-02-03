@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 391 400">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: url(#Dégradé_sans_nom_3);
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill: none;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
+
+      .cls-2 {
+        stroke: url(#Dégradé_sans_nom_3-2);
+      }
+
+      .cls-3 {
+        stroke: url(#Dégradé_sans_nom_3-3);
+      }
+
+      .cls-4 {
+        stroke: url(#Dégradé_sans_nom_3-4);
+      }
+
+      .cls-5 {
+        fill: #f7f2f9;
+        stroke-width: 0px;
+      }
+    </style>
+    <linearGradient id="Dégradé_sans_nom_3" data-name="Dégradé sans nom 3" x1="35.19" y1="254.97" x2="143.31" y2="145.03" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffb995"/>
+      <stop offset=".26" stop-color="#fbffa8"/>
+      <stop offset=".49" stop-color="#a2efff"/>
+      <stop offset=".77" stop-color="#ffaafd"/>
+      <stop offset="1" stop-color="#ffa0a7"/>
+    </linearGradient>
+    <linearGradient id="Dégradé_sans_nom_3-2" data-name="Dégradé sans nom 3" x1="165.98" y1="141.42" x2="257.53" y2="48.33" xlink:href="#Dégradé_sans_nom_3"/>
+    <linearGradient id="Dégradé_sans_nom_3-3" data-name="Dégradé sans nom 3" x1="175.15" y1="241.37" x2="248.91" y2="166.37" xlink:href="#Dégradé_sans_nom_3"/>
+    <linearGradient id="Dégradé_sans_nom_3-4" data-name="Dégradé sans nom 3" x1="276.15" y1="241.37" x2="349.91" y2="166.37" xlink:href="#Dégradé_sans_nom_3"/>
+  </defs>
+  <g>
+    <path class="cls-5" d="M22.5,201.63c0-54.81,11.94-66.75,66.75-66.75,54.81,0,66.75,11.94,66.75,66.75v-3.26c0,54.81-11.94,66.75-66.75,66.75-54.81,0-66.75-11.94-66.75-66.75"/>
+    <path class="cls-1" d="M22.5,201.63c0-54.81,11.94-66.75,66.75-66.75,54.81,0,66.75,11.94,66.75,66.75v-3.26c0,54.81-11.94,66.75-66.75,66.75-54.81,0-66.75-11.94-66.75-66.75"/>
+  </g>
+  <g>
+    <path class="cls-5" d="M155.51,96.24c0-46.18,10.06-56.24,56.24-56.24,46.18,0,56.24,10.06,56.24,56.24v-2.74c0,46.18-10.06,56.24-56.24,56.24-46.18,0-56.24-10.06-56.24-56.24"/>
+    <path class="cls-2" d="M155.51,96.24c0-46.18,10.06-56.24,56.24-56.24,46.18,0,56.24,10.06,56.24,56.24v-2.74c0,46.18-10.06,56.24-56.24,56.24-46.18,0-56.24-10.06-56.24-56.24"/>
+  </g>
+  <g>
+    <path class="cls-5" d="M167.06,204.97c0-36.92,8.05-44.97,44.97-44.97,36.92,0,44.97,8.05,44.97,44.97v-2.19c0,36.92-8.05,44.97-44.97,44.97-36.92,0-44.97-8.05-44.97-44.97"/>
+    <path class="cls-3" d="M167.06,204.97c0-36.92,8.05-44.97,44.97-44.97,36.92,0,44.97,8.05,44.97,44.97v-2.19c0,36.92-8.05,44.97-44.97,44.97-36.92,0-44.97-8.05-44.97-44.97"/>
+  </g>
+  <g>
+    <path class="cls-5" d="M268.06,204.97c0-36.92,8.05-44.97,44.97-44.97,36.92,0,44.97,8.05,44.97,44.97v-2.19c0,36.92-8.05,44.97-44.97,44.97-36.92,0-44.97-8.05-44.97-44.97"/>
+    <path class="cls-4" d="M268.06,204.97c0-36.92,8.05-44.97,44.97-44.97,36.92,0,44.97,8.05,44.97,44.97v-2.19c0,36.92-8.05,44.97-44.97,44.97-36.92,0-44.97-8.05-44.97-44.97"/>
+  </g>
+</svg>
