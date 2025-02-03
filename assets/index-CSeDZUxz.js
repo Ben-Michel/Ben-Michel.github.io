@@ -262,9 +262,9 @@ function displayImage(name, position, type) {
   var _a;
   const img = document.createElement("img");
   if (type == "asp") {
-    img.setAttribute("src", `/src/images/Aspirations/${name}.png`);
+    img.setAttribute("src", `/images/Aspirations/${name}.png`);
   } else if (type == "trait") {
-    img.setAttribute("src", `/src/images/Traits/${name}.png`);
+    img.setAttribute("src", `/images/Traits/${name}.png`);
   }
   img.setAttribute("title", name);
   img.classList.add("imageGen");
